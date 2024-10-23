@@ -1,7 +1,7 @@
 import React from 'react';
 import './jogador.css';
 import Nacionalidade from './nacionalidade';
-import Times from './components/Times';
+import Times from './components/time';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFutbol, faTshirt, faTrophy } from '@fortawesome/free-solid-svg-icons'; 
 
