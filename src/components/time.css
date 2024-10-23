@@ -1,46 +1,29 @@
-.time-container {
-    border: 2px solid #007bff;
-    border-radius: 10px; 
-    padding: 20px; 
-    margin: 15px 0; 
-    background-color: #f0f8ff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-    transition: transform 0.2s;
-  }
-  
-  .time-container:hover {
-    transform: scale(1.02); 
-  }
-  
-  .time-container h3 {
-    color: #007bff; 
-    font-size: 1.5em; 
-    margin-bottom: 10px; 
-  }
-  
-  .time-container p {
-    color: #555; 
-    font-weight: bold; 
-    margin-bottom: 5px; 
-  }
-  
-  .time-container ul {
-    list-style-type: none; 
-    padding-left: 0; 
-  }
-  
-  .time-container li {
-    background-color: #e7f3ff;
-    margin: 5px 0;
-    padding: 10px; 
+.times-container {
+    margin-top: 1.5rem; 
+    padding: 1rem; 
+    border: 1px solid #ddd; 
     border-radius: 5px; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-  }
-  
-  .time-container li span {
-    font-size: 0.9em; 
-    color: #777; 
-  }
-  
+    background-color: #f9f9f9; 
+}
+
+.times-container h4 {
+    font-size: 1.2rem; 
+    color: black; 
+    margin-bottom: 0.5rem; 
+}
+
+.times-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.time-item {
+    font-size: 1rem; 
+    color: rgb(255, 0, 13); 
+    padding: 0.5rem 0; 
+    border-bottom: 1px solid black; 
+}
+
+.time-item:last-child {
+    border-bottom: none; 
+}

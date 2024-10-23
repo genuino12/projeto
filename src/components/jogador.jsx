@@ -1,7 +1,7 @@
 import React from 'react';
 import './jogador.css';
 import Nacionalidade from './nacionalidade';
-import Times from './components/time';
+import Times from './times';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFutbol, faTshirt, faTrophy } from '@fortawesome/free-solid-svg-icons'; 
 
@@ -20,8 +20,12 @@ function Jogador({ jogadores }) {
           <p>
             <FontAwesomeIcon icon={faTrophy} /> Gols Na Carreira: <span>{jogador.gols}</span>
           </p>
+          <p>
           <Nacionalidade nacionalidades={jogador.nacionalidade} />
+          </p>
+          <p>
           <Times times={jogador.times} />
+          </p>
         </div>
       ))}
     </div>
