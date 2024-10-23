@@ -1,0 +1,24 @@
+
+.valor-mercado-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.valor-mercado-container h4 {
+    font-size: 1.2rem;
+    color: green;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center; 
+}
+
+.valor-mercado {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+    margin: 0; 
+}
+
