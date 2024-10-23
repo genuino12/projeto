@@ -1,0 +1,32 @@
+.jogadores-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .jogador-container {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jogador-container h3 {
+    color: #2c3e50;
+    font-size: 1.5em;
+  }
+  
+  .jogador-container p {
+    color: #34495e;
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  .jogador-container p span {
+    font-weight: bold;
+    color: #2980b9;
+  }
+  
